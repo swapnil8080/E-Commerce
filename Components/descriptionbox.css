@@ -1,0 +1,19 @@
+.d-navigator{
+ display: flex;
+ margin-top: 20px;
+}
+.d-text{
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.d-description{
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.descriptionbox{
+    margin-left: 20px;
+}

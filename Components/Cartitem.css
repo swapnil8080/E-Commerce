@@ -1,0 +1,164 @@
+/* Main Cart Items Container */
+.cartitems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between each item */
+    padding: 20px;
+  }
+  
+  /* Cart Item Container */
+  .main {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Cart Item Header Titles */
+  .cartitems-main {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart Item Content */
+  .items-format {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  /* Product Image */
+  .cartproduct-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  /* Product Name */
+  .cartitem-productname {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  /* Price and Total Price */
+  .item-newprice{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .new-price
+  {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 310px;
+  }
+  /* Quantity Button */
+  .cartitem-quantity {
+    border: none;
+    padding: 5px 10px;
+    background-color: #e96565;
+    cursor: default;
+    margin-right: 340px;
+  }
+  
+  /* Remove and Save Buttons */
+  .item-remove {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .removebtn,
+  .para {
+    padding: 8px 15px;
+    border: none;
+    background-color: #f44336; /* Red color for remove */
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .para {
+    background-color: #2196F3; /* Blue color for save */
+  }
+  
+  .removebtn:hover,
+  .para:hover {
+    opacity: 0.9;
+  }
+  
+  /* Cart Total Section */
+  .cartitem-down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Cart Total Content */
+  .cartitem-total {
+    flex: 1;
+  }
+  
+  .total-item-cartitem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  /* Promo Code Section */
+  .cartitem-promocode {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .cartitem-promobox {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .cartitem-promobox input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .cartitem-promobox button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cartitem-promobox button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Checkout Button */
+  button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,17 @@
+.relatedproducts h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.relatedproducts hr{
+    width: 200px;
+    height: 6px;
+    margin-left: 43%;
+    border-radius: 10px;
+    background-color: rgb(216, 33, 33);
+}
+.relatedproducts-item{
+    margin-top: 50px;
+    margin-left: 35px;
+    display: flex;
+}

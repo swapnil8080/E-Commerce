@@ -1,0 +1,30 @@
+.col-left{
+    margin: 150px;
+}
+
+.col-left h2{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.col-left p{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+.hand-icon{
+    display: flex;
+    margin: 0px;
+}
+.hand-icon img{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.col-right img{
+    height: 90vh;
+    position: absolute;
+    right: 16px;
+}

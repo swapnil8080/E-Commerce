@@ -1,0 +1,32 @@
+.offers {
+    margin: 100px;
+    background-color: rgb(232, 221, 242);
+}
+
+.offers-left {
+    margin: 150px;
+}
+
+.offers-left h1 {
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.offers-left p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-1 {
+    border-radius: 15px;
+    padding: 6px;
+    width: 150px;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: rgb(75, 92, 203);
+    color:white;
+}
+
+.offers-right {
+    margin: auto;
+    right: 10px;
+}
